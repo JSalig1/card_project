@@ -3,18 +3,22 @@ body {
   font-family: "arial",Verdana,Sans-Serif;
 }
 h2 {
-  background-color: #121212;
-  background-opacity;
   color: green;
   text-align: center;
 }
 h1 {
   color: white;
-  text-align: center;
+  text-align: center;  
 }
-#introduction {
+.introduction {
   color: gray;
   text-align: center;
+  width: 635px;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: #121212;
+  background-opacity;
+  margin-top: 70px;
 }
 #card-title {
   text-align: center;
@@ -29,27 +33,31 @@ h1 {
   max-height: 300px;
 }
 #about-me {
-	text align: left;
+	text-align: left;
+	padding-left: 200px;
+	padding-top: 5px;
 }
 .boxed {
   border: 1px solid green;
   background-color: #121212;
   background-opacity: 0.6;
-  max-width: 600px; 
+  width: 600px; 
   height: 320px;
   margin-left: auto;
   margin-right: auto; 
   padding: 15px;
+  line-height: 28px;
 }
 .contact-icons {
-    max-width: 600px; 
+    width: 660px;  
     height: 320px;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 #twitter-icon {
     max-width: 50px; 
     max-height: 50px;
+	float: right;
 }
 body {
   font-size: 20px;
