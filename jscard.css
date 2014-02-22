@@ -1,6 +1,8 @@
 body {
   background-color: #1C1C1C;
   font-family: "arial",Verdana,Sans-Serif;
+  background-image:url('hexBG-SingleTile-Dark.png');
+  background-repeat:repeat;
 }
 h2 {
   color: green;
@@ -32,27 +34,30 @@ h1 {
   max-width: 300px; 
   max-height: 300px;
 }
-#about-me {
+.about-me {
 	text-align: left;
 	padding-left: 200px;
-	padding-top: 5px;
+	padding-top: 15px;
+	text-indent: 20px;
+	font-size: 85%;
 }
 .boxed {
-  border: 1px solid green;
+  border: 3px solid green;
   background-color: #121212;
-  background-opacity: 0.6;
+  opacity: 1.0;
   width: 600px; 
   height: 320px;
   margin-left: auto;
   margin-right: auto; 
   padding: 15px;
-  line-height: 28px;
+  line-height: 24px;
 }
 .contact-icons {
     width: 660px;  
     height: 320px;
     margin-left: auto;
     margin-right: auto;
+	opacity: 0.7;
 }
 #twitter-icon {
     max-width: 50px; 
