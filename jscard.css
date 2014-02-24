@@ -5,21 +5,20 @@ body {
   background-repeat:repeat;
 }
 h2 {
-  color: green;
-  text-align: center;
+  color: black;
+  font-size: 140%;
+  font-weight: 400;
+  text-align: left;
+  width: 635px;
+  margin-left: auto;
+  margin-right: auto; 
 }
 h1 {
   color: white;
   text-align: center;  
 }
 .introduction {
-  color: gray;
-  text-align: center;
-  width: 635px;
-  margin-left: auto;
-  margin-right: auto; 
-  background-color: #121212;
-  background-opacity;
+  background-color: rgba(255, 255, 255, 0.4);
   margin-top: 70px;
 }
 #card-title {
@@ -36,33 +35,64 @@ h1 {
 }
 .about-me {
 	text-align: left;
-	padding-left: 200px;
-	padding-top: 15px;
+	padding-left: 285px;
+	padding-top: 5px;
 	text-indent: 20px;
-	font-size: 85%;
+	font-size: 80%;
+	font-weight: 400;
 }
 .boxed {
   border: 3px solid green;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.8);
   opacity: 1.0;
   width: 600px; 
   height: 320px;
   margin-left: auto;
   margin-right: auto; 
   padding: 15px;
-  line-height: 24px;
+  line-height: 23px;
 }
 .contact-icons {
     width: 660px;  
     height: 320px;
     margin-left: auto;
     margin-right: auto;
-	opacity: 0.7;
 }
 #twitter-icon {
     max-width: 50px; 
     max-height: 50px;
 	float: right;
+	opacity: 0.3;
+}
+#twitter-icon:hover {
+    max-width: 50px; 
+    max-height: 50px;
+	float: right;
+	opacity: 1.0;
+}
+#github-icon {
+    max-width: 50px; 
+    max-height: 50px;
+	float: right;
+	opacity: 0.3;
+}
+#github-icon:hover {
+    max-width: 50px; 
+    max-height: 50px;
+	float: right;
+	opacity: 1.0;
+}
+#linkedin-icon {
+    max-width: 50px; 
+    max-height: 50px;
+	float: right;
+	opacity: 0.3;
+}
+#linkedin-icon:hover {
+    max-width: 50px; 
+    max-height: 50px;
+	float: right;
+	opacity: 1.0;
 }
 body {
   font-size: 20px;
